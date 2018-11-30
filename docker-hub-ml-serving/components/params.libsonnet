@@ -9,7 +9,9 @@
     "docker-hub-classification-model-serving-v3": {
       endpoint: "REST",
       image: "rogaha/dockerhubclassifier:0.2",
+      imagePullSecret: "null",
       name: "docker-hub-classification-model-serving-v3",
+      pvcName: "null",
       replicas: 2,
     },
   },
