@@ -1,5 +1,5 @@
 local env = std.extVar("__ksonnet/environments");
-local params = std.extVar("__ksonnet/params").components["docker-hub-classification-model-serving-v2"];
+local params = std.extVar("__ksonnet/params").components["docker-hub-classification-model-serving-v3"];
 
 local k = import "k.libsonnet";
 
